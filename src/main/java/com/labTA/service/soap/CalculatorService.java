@@ -3,7 +3,6 @@ package com.labTA.service.soap;
 import com.labTA.model.Calculator;
 import com.labTA.model.CalculatorOperation;
 import com.labTA.service.soap.exception.SoapException;
-
 import javax.jws.WebService;
 
 @WebService

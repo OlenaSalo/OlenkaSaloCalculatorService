@@ -9,7 +9,6 @@
         <jaxrs:serviceBeans>
             <bean class="com.labTA.service.rest.CalculatorServiceImpl"/>
         </jaxrs:serviceBeans>
-
         <jaxrs:providers>
             <bean class="org.codehaus.jackson.jaxrs.JacksonJsonProvider"/>
         </jaxrs:providers>

@@ -1,7 +1,11 @@
 package com.labTA.service.rest;
 
 import com.labTA.service.soap.exception.SoapException;
-import javax.ws.rs.*;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
@@ -17,27 +21,27 @@ public interface CalculatorService {
     @GET
     @Path("add/{x}/{y}")
     @Produces(MediaType.APPLICATION_JSON)
-    Response getAdd(@PathParam("x") double x , @PathParam("y") double y);
+    Response getAdd(@PathParam("x") double x, @PathParam("y") double y);
 
     @GET
     @Path("subtract/{x}/{y}")
     @Produces(MediaType.APPLICATION_JSON)
-    Response getSubtract(@PathParam("x") double x ,@PathParam("y") double y);
+    Response getSubtract(@PathParam("x") double x, @PathParam("y") double y);
 
 
     @GET
     @Path("multiply/{x}/{y}")
     @Produces(MediaType.APPLICATION_JSON)
-    Response getMultiply(@PathParam("x") double x , @PathParam("y")double y);
+    Response getMultiply(@PathParam("x") double x, @PathParam("y") double y);
 
     @GET
     @Path("divide/{x}/{y}")
     @Produces({MediaType.APPLICATION_JSON})
-    Response getDivide(@PathParam("x") double x ,@PathParam("y") double y) throws SoapException;
+    Response getDivide(@PathParam("x") double x, @PathParam("y") double y) throws SoapException;
 
     @GET
     @Path("percentage/{x}/{y}")
     @Produces(MediaType.APPLICATION_JSON)
-    Response getPercentage(@PathParam("x") double x , @PathParam("y")double y);
+    Response getPercentage(@PathParam("x") double x, @PathParam("y") double y);
 
 }

@@ -3,16 +3,12 @@ package com.labTA.bo;
 import com.google.common.collect.ImmutableMap;
 import com.labTA.model.Calculator;
 import com.labTA.model.CalculatorOperation;
-
 import java.math.BigDecimal;
-
 import static com.labTA.model.CalculatorOperation.*;
 
 public class CalculatorBO {
 
-
     private ImmutableMap<CalculatorOperation, Double> immutableCalculator;
-
 
     public void outCalculate(CalculatorOperation calculatorOperation, Calculator calculator) {
         immutableCalculator = ImmutableMap.<CalculatorOperation, Double>builder()
@@ -59,7 +55,6 @@ public class CalculatorBO {
     }
 
     public double roundTo4Places(double value) {
-
         BigDecimal bd = new BigDecimal(value);
         int roundPlace = 4;
         bd = bd.setScale(roundPlace, BigDecimal.ROUND_HALF_UP);

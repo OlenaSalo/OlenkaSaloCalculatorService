@@ -29,21 +29,17 @@ public class CalculatorServiceImpl implements CalculatorService {
     @Override
     public Response getCalculate(double x, double y, String operation) {
         LOG.info("Get calculate method");
-
         msg.clear();
         FaultInfo faultInfo = new FaultInfo();
         Calculator calculator = new Calculator(x, y);
         calculatorList.add(calculator);
         try {
             calculatorOperation = CalculatorOperation.valueOf(operation);
-
             if (calculatorOperation.contain(operation)) {
-
                 if (calculatorOperation.equals(DIVIDE) && calculator.getNum2() == 0) {
                     LOG.warn(faultInfo.getMsg());
                     response = Response.status(Response.Status.FORBIDDEN).entity(DIVIDE_FOR_ZERO_FORBIDDEN.getMsgExseption()).build();
                 } else {
-
                     LOG.info("Operation for calculate method selected correct:" + calculatorOperation);
                     msg.add(String.format("value1-> %f;  " +
                             "value2-> %f; " +
@@ -51,13 +47,11 @@ public class CalculatorServiceImpl implements CalculatorService {
                             " answer-> %.4f ", x, y, calculatorOperation, calc.calculate(calculatorOperation, calculator)));
                     response = Response.status(Response.Status.OK).entity(msg).build();
                 }
-
             }
         } catch (Exception e) {
             LOG.warn(NO_SUCH_METHOD.getMsgExseption());
             response = Response.status(Response.Status.NOT_FOUND).entity(NO_SUCH_METHOD.getMsgExseption()).build();
         }
-
         return response;
     }
 
@@ -126,8 +120,6 @@ public class CalculatorServiceImpl implements CalculatorService {
         response = Response.status(Response.Status.OK).entity(msg).build();
         return Response.status(Response.Status.OK).entity(msg).build();
     }
-
-
 }
 
 

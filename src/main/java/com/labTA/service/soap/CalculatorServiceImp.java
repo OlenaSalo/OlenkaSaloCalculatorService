@@ -24,10 +24,10 @@ public class CalculatorServiceImp implements CalculatorService {
         LOG.info("Calculate two number the next operation");
         FaultInfo faultInfo = new FaultInfo(FaultMessage.NO_SUCH_METHOD);
 
-            if (calculatorOperation.contain(calculatorOperation.getOperation())) {
-                result = calculatorBO.calculate(calculatorOperation, calculator);
-            } else
-                LOG.warn(faultInfo.getMsg());
+        if (calculatorOperation.contain(calculatorOperation.getOperation())) {
+            result = calculatorBO.calculate(calculatorOperation, calculator);
+        } else
+            LOG.warn(faultInfo.getMsg());
 
         return calculatorBO.roundTo4Places(result);
     }
@@ -39,7 +39,7 @@ public class CalculatorServiceImp implements CalculatorService {
     }
 
     @Override
-    public double getSubtract(double x, double y) throws SoapException {
+    public double getSubtract(double x, double y) {
         LOG.info("Subtract two number");
         return calculatorBO.subtract(x, y);
     }
