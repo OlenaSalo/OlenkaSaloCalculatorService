@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/labTA/bo/CalculatorBO.java" line="56" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/labTA/bo/CalculatorBO.java" line="60" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46e07898-814e-4518-a037-9f6482060a0f" name="Default Changelist" comment="" />
+    <list default="true" id="46e07898-814e-4518-a037-9f6482060a0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/labTA/model/CalculatorOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OlenkaSaloCalculatorService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/labTA/bo/CalculatorBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/labTA/bo/CalculatorBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/labTA/model/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/labTA/model/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/labTA/service/rest/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/labTA/service/rest/CalculatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/labTA/service/rest/CalculatorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/labTA/service/rest/CalculatorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/labTA/service/soap/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/labTA/service/soap/CalculatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/labTA/service/soap/CalculatorServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/labTA/service/soap/CalculatorServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT/WEB-INF/classes/com/labTA/bo/CalculatorBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT/WEB-INF/classes/com/labTA/bo/CalculatorBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT/WEB-INF/classes/com/labTA/model/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT/WEB-INF/classes/com/labTA/model/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT/WEB-INF/classes/com/labTA/service/rest/CalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT/WEB-INF/classes/com/labTA/service/rest/CalculatorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT/WEB-INF/classes/com/labTA/service/rest/CalculatorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT/WEB-INF/classes/com/labTA/service/rest/CalculatorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT/WEB-INF/classes/com/labTA/service/soap/CalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT/WEB-INF/classes/com/labTA/service/soap/CalculatorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT/WEB-INF/classes/com/labTA/service/soap/CalculatorServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/OlenkaSaloCalculatorService-1.0-SNAPSHOT/WEB-INF/classes/com/labTA/service/soap/CalculatorServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/labTA/bo/CalculatorBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/labTA/bo/CalculatorBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/labTA/model/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/labTA/model/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/labTA/service/rest/CalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/labTA/service/rest/CalculatorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/labTA/service/rest/CalculatorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/labTA/service/rest/CalculatorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/labTA/service/soap/CalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/labTA/service/soap/CalculatorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/labTA/service/soap/CalculatorServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/labTA/service/soap/CalculatorServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/localEngine/localhost/OlenkaSaloCalculatorService/SESSIONS.ser" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,13 +42,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/rest/CalculatorServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="330">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/rest/CalculatorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="120">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,33 +72,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/soap/CalculatorServiceImp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/fault/FaultInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/soap/CalculatorService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/soap/exception/SoapException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            <state relative-caret-position="75">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/bo/CalculatorBO.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Enum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="184">
+              <caret line="237" selection-start-line="237" selection-end-line="237" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/fault/FaultMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/model/CalculatorOperation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,26 +124,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/model/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/fault/FaultInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/fault/FaultMessage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/bo/CalculatorBO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1505#1506#0" expanded="true" />
+                <element signature="e#1583#1584#0" expanded="true" />
+                <element signature="e#1661#1662#0" expanded="true" />
+                <element signature="e#1826#1827#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/soap/CalculatorServiceImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,9 +163,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -118,15 +181,34 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans_rest.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/labTA/service/soap/CalculatorService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/labTA/model/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/labTA/exception/NoSuchMethod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/labTA/model/CalculatorOperation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/labTA/service/soap/CalculatorServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/labTA/service/rest/exception/RestException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/labTA/model/Calculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/labTA/service/rest/CalculatorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/labTA/service/rest/CalculatorServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/labTA/bo/CalculatorBO.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CXF Java-first SOAP-REST project using Spring configuration" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CXF Java-first SOAP-REST project using Spring configuration" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-25" />
     <option name="width" value="1180" />
     <option name="height" value="1050" />
@@ -136,6 +218,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,16 +288,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="labTA" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="fault" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OlenkaSaloCalculatorService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OlenkaSaloCalculatorService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="labTA" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -223,19 +297,33 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OlenkaSaloCalculatorService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OlenkaSaloCalculatorService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OlenkaSaloCalculatorService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OlenkaSaloCalculatorService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552161057686" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../restfull_api_test/restfull_api_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
@@ -281,16 +369,22 @@
       <workItem from="1552289233256" duration="1294000" />
       <workItem from="1552295919588" duration="2456000" />
       <workItem from="1552300390460" duration="644000" />
+      <workItem from="1556824395733" duration="119000" />
+      <workItem from="1556857039258" duration="3699000" />
+      <workItem from="1556944491890" duration="8929000" />
+      <workItem from="1557051798911" duration="9311000" />
+      <workItem from="1557128144312" duration="3750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74474000" />
+    <option name="totallyTimeSpent" value="100282000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26644295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2846924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -306,16 +400,16 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4966443" visible="true" weight="0.3654391" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.9055794" visible="true" weight="0.3048193" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5033557" side_tool="true" visible="true" weight="0.3654391" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.094420604" side_tool="true" visible="true" weight="0.3048193" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -364,116 +458,139 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar!/com/sun/xml/bind/v2/runtime/unmarshaller/UnmarshallerImpl.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Long.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans_rest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="135">
           <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="510">
           <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans_soap.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="225">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar!/com/sun/xml/bind/v2/runtime/unmarshaller/UnmarshallerImpl.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/soap/exception/SoapException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/exception/NoSuchMethod.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/soap/CalculatorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="58" column="37" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/rest/CalculatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/soap/CalculatorServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+        <state relative-caret-position="390">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/soap/CalculatorService.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        <state relative-caret-position="705">
+          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/bo/CalculatorBO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/fault/FaultInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/soap/exception/SoapException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/rest/exception/RestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/rest/CalculatorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/rest/CalculatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/fault/FaultMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/model/CalculatorOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/model/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+        <state relative-caret-position="375">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/rest/CalculatorServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/bo/CalculatorBO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/fault/FaultInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/labTA/service/fault/FaultMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
         </state>
       </provider>
     </entry>

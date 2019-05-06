@@ -2,6 +2,7 @@ package com.labTA.service.soap;
 
 import com.labTA.bo.CalculatorBO;
 import com.labTA.model.Calculator;
+import com.labTA.model.CalculatorOperation;
 import com.labTA.service.fault.FaultInfo;
 import com.labTA.service.fault.FaultMessage;
 import com.labTA.service.soap.exception.SoapException;
@@ -18,20 +19,23 @@ public class CalculatorServiceImp implements CalculatorService {
     private double result = 0;
 
     @Override
-    public double getCalculate(Calculator calculator) throws SoapException {
+    public double getCalculate(CalculatorOperation calculatorOperation, Calculator calculator) throws SoapException {
+
         LOG.info("Calculate two number the next operation");
         FaultInfo faultInfo = new FaultInfo(FaultMessage.NO_SUCH_METHOD);
-        if(calculator.getOperation().equals("*") || calculator.getOperation().equals("/") || calculator.getOperation().equals("+") || calculator.getOperation().equals("-") || calculator.getOperation().equals("%"))
-        {result = calculatorBO.calculate(calculator);}
-        else
-            LOG.warn(faultInfo.getMsg());
+
+            if (calculatorOperation.contain(calculatorOperation.getOperation())) {
+                result = calculatorBO.calculate(calculatorOperation, calculator);
+            } else
+                LOG.warn(faultInfo.getMsg());
+
         return calculatorBO.roundTo4Places(result);
     }
 
     @Override
-    public double getAdd(double x, double y)  {
-        LOG.info("Add two number" );
-               return calculatorBO.add(x, y);
+    public double getAdd(double x, double y) {
+        LOG.info("Add two number");
+        return calculatorBO.add(x, y);
     }
 
     @Override
@@ -49,11 +53,10 @@ public class CalculatorServiceImp implements CalculatorService {
     @Override
     public double getDivide(double x, double y) throws SoapException {
 
-        if(forbiddenDivide(y)) {
+        if (forbiddenDivide(y)) {
             throw new RuntimeException();
-        }
-        else
-        result = calculatorBO.roundTo4Places(calculatorBO.divide(x, y));
+        } else
+            result = calculatorBO.roundTo4Places(calculatorBO.divide(x, y));
         return result;
     }
 
@@ -61,22 +64,21 @@ public class CalculatorServiceImp implements CalculatorService {
     public double getPercentage(double x, double y) throws SoapException {
         LOG.info("Percentage two number");
 
-        if(forbiddenDivide(y)){
+        if (forbiddenDivide(y)) {
             throw new RuntimeException();
-        }else
+        } else
             result = calculatorBO.roundTo4Places(calculatorBO.percentage(x, y));
 
         return result;
     }
 
-    private boolean forbiddenDivide(double y)
-    {
+    private boolean forbiddenDivide(double y) {
         boolean condition;
         FaultInfo faultInfo = new FaultInfo(FaultMessage.DIVIDE_FOR_ZERO_FORBIDDEN);
-        if(y == 0) {
+        if (y == 0) {
             LOG.warn(faultInfo.getMsg());
-            condition =  true;
-        }else condition =false;
+            condition = true;
+        } else condition = false;
         return condition;
     }
 }

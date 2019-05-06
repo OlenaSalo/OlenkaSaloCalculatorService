@@ -1,6 +1,5 @@
 package com.labTA.service.rest;
 
-
 import com.labTA.service.soap.exception.SoapException;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -40,6 +39,5 @@ public interface CalculatorService {
     @Path("percentage/{x}/{y}")
     @Produces(MediaType.APPLICATION_JSON)
     Response getPercentage(@PathParam("x") double x , @PathParam("y")double y);
-
 
 }

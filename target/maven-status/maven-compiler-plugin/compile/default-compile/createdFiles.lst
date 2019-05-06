@@ -1,9 +1,1 @@
-com\labTA\service\fault\FaultMessage.class
-com\labTA\service\soap\exception\SoapException.class
-com\labTA\bo\CalculatorBO.class
-com\labTA\service\rest\CalculatorServiceImpl.class
-com\labTA\service\soap\CalculatorService.class
-com\labTA\service\fault\FaultInfo.class
-com\labTA\service\soap\CalculatorServiceImp.class
-com\labTA\service\rest\CalculatorService.class
-com\labTA\model\Calculator.class
+com/labTA/model/CalculatorOperation.class

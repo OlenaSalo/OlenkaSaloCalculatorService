@@ -1,35 +1,39 @@
 package com.labTA.bo;
 
+import com.google.common.collect.ImmutableMap;
 import com.labTA.model.Calculator;
+import com.labTA.model.CalculatorOperation;
+
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Objects;
+
+import static com.labTA.model.CalculatorOperation.*;
+
+public class CalculatorBO {
 
 
-public class CalculatorBO{
+    private ImmutableMap<CalculatorOperation, Double> immutableCalculator;
 
-    private Calculator calculator = new Calculator();
-    private double result = 0.0;
 
-    public double calculate(Calculator calculator)
-    {
-        if(calculator.getOperation().equals("+"))
-        {
-            return add(calculator.getNum1() , calculator.getNum2());
-        }else if(calculator.getOperation().equals("-"))
-        {
-            return subtract(calculator.getNum1() , calculator.getNum2());
-        }else if (calculator.getOperation().equals("*")) {
-            return multiply(calculator.getNum1(), calculator.getNum2());
-        }else if(calculator.getOperation().equals("/")){
-            return divide(calculator.getNum1(), calculator.getNum2());
-        }else if(calculator.getOperation().equals("%"))
-        {
-            return percentage(calculator.getNum1(), calculator.getNum2());
+    public void outCalculate(CalculatorOperation calculatorOperation, Calculator calculator) {
+        immutableCalculator = ImmutableMap.<CalculatorOperation, Double>builder()
+                .put(ADD, add(calculator.getNum1(), calculator.getNum2()))
+                .put(SUBTRACT, subtract(calculator.getNum1(), calculator.getNum2()))
+                .put(DIVIDE, divide(calculator.getNum1(), calculator.getNum2()))
+                .put(MULTIPLY, multiply(calculator.getNum1(), calculator.getNum2()))
+                .put(PERCENTAGE, percentage(calculator.getNum1(), calculator.getNum2())).build();
+        for (CalculatorOperation key : immutableCalculator.keySet()) {
+            if (key.getOperation().equals(calculatorOperation)) {
+                immutableCalculator.get(key);
+            }
         }
-        return result;
+
+    }
+
+    public double calculate(CalculatorOperation calculatorOperation, Calculator calculator) {
+        CalculatorOperation key;
+        outCalculate(calculatorOperation, calculator);
+        key = calculatorOperation;
+        return immutableCalculator.get(key);
 
     }
 
@@ -56,11 +60,10 @@ public class CalculatorBO{
 
     public double roundTo4Places(double value) {
 
-            BigDecimal bd = new BigDecimal(value);
-            int roundPlace = 4;
-            bd = bd.setScale(roundPlace, BigDecimal.ROUND_HALF_UP);
-            return bd.doubleValue();
-
+        BigDecimal bd = new BigDecimal(value);
+        int roundPlace = 4;
+        bd = bd.setScale(roundPlace, BigDecimal.ROUND_HALF_UP);
+        return bd.doubleValue();
     }
 
 
